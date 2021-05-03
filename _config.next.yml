@@ -316,7 +316,7 @@ tagcloud:
 # Google Calendar
 # Share your recent schedule to others via calendar page.
 calendar:
-  calendar_id: <required> # Your Google account E-Mail
+  calendar_id: tony148brown@gmail.com # Your Google account E-Mail
   api_key: <required>
   orderBy: startTime
   showLocation: false
@@ -469,7 +469,7 @@ exturl_icon: true
 
 # Google Webmaster tools verification.
 # See: https://developers.google.com/search
-google_site_verification:
+google_site_verification: HDX-4wj4KvEnjdJ7D6H8fRGNVBmgcaFF___n1RnGZR0
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
@@ -664,7 +664,7 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: UA-196192665-1 # <app_id>
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
@@ -698,10 +698,10 @@ leancloud_visitors:
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
 # Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.
 firestore:
-  enable: false
+  enable: true
   collection: articles # Required, a string collection name to access firestore database
-  apiKey: # Required
-  projectId: # Required
+  apiKey: AIzaSyAPKaDuAPYV5YpYL4sCp_-8cZLMe8RszTg # Required
+  projectId: personal-blog-73878 # Required
 
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
