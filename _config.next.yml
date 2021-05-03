@@ -137,15 +137,16 @@ site_state: true
 social:
   GitHub: https://github.com/tb148 || fab fa-github
   E-Mail: mailto:tb148@tuta.io || fa fa-envelope
-  Keybase: https://keybase.io/tonybrown148 || fab fa-keybase
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
-  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  StackOverflow: https://stackoverflow.com/users/15814250/tonybrown148 || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  Discord: https://discord.gg/T8SgturZ3R || fab fa-discord
+  Keybase: https://keybase.io/tonybrown148 || fab fa-keybase
 
 social_icons:
   enable: true
