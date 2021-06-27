@@ -98,7 +98,6 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-# config of hexo-renderer-markdown-it
 markdown:
   render:
     html: true
@@ -109,12 +108,17 @@ markdown:
     quotes: "“”‘’"
   plugins:
     - markdown-it-katex
-# config of hexo-generator-searchdb
 search:
   path: search.xml
   field: post
   content: true
   format: html
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: true
+  tags: true
+  categories: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
