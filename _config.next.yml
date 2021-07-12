@@ -11,10 +11,10 @@
 
 # Allow to cache content generation.
 cache:
-  enable: false
+  enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -248,7 +248,7 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
-  separated_meta: true
+  separated_meta: false
   item_text_total: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
