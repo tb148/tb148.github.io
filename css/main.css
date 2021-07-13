@@ -17,10 +17,10 @@
   --btn-default-hover-bg: #222;
   --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: #222;
-  --highlight-background: #282a36;
-  --highlight-foreground: #f8f8f2;
-  --highlight-gutter-background: #3c3e48;
-  --highlight-gutter-foreground: #e3e3df;
+  --highlight-background: #444;
+  --highlight-foreground: #ddd;
+  --highlight-gutter-background: #535353;
+  --highlight-gutter-foreground: #cdcdcd;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -42,10 +42,10 @@
     --btn-default-hover-bg: #666;
     --btn-default-hover-color: #ccc;
     --btn-default-hover-border-color: #666;
-    --highlight-background: #282a36;
-    --highlight-foreground: #f8f8f2;
-    --highlight-gutter-background: #3c3e48;
-    --highlight-gutter-foreground: #e3e3df;
+    --highlight-background: #f0f0f0;
+    --highlight-foreground: #444;
+    --highlight-gutter-background: #dedede;
+    --highlight-gutter-foreground: #555;
   }
   img {
     opacity: 0.75;
@@ -393,17 +393,7 @@ td {
 }
 /*
 
-Dracula Theme v1.2.0
-
-https://github.com/zenorocha/dracula-theme
-
-Copyright 2015, All rights reserved
-
-Code licensed under the MIT license
-http://zenorocha.mit-license.org
-
-@author Éverton Ribeiro <nuxlli@gmail.com>
-@author Zeno Rocha <hi@zenorocha.com>
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 
 */
 
@@ -411,7 +401,7 @@ http://zenorocha.mit-license.org
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #282a36;
+  background: #444;
 }
 
 .hljs-keyword,
@@ -419,16 +409,12 @@ http://zenorocha.mit-license.org
 .hljs-literal,
 .hljs-section,
 .hljs-link {
-  color: #8be9fd;
-}
-
-.hljs-function .hljs-keyword {
-  color: #ff79c6;
+  color: white;
 }
 
 .hljs,
 .hljs-subst {
-  color: #f8f8f2;
+  color: #ddd;
 }
 
 .hljs-string,
@@ -438,18 +424,19 @@ http://zenorocha.mit-license.org
 .hljs-attribute,
 .hljs-symbol,
 .hljs-bullet,
+.hljs-built_in,
 .hljs-addition,
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-  color: #f1fa8c;
+  color: #d88;
 }
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion,
 .hljs-meta {
-  color: #6272a4;
+  color: #777;
 }
 
 .hljs-keyword,
@@ -468,6 +455,108 @@ http://zenorocha.mit-license.org
   font-style: italic;
 }
 
+@media (prefers-color-scheme: dark) {
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+}
 .highlight:hover .copy-btn,
 pre:hover .copy-btn {
   opacity: 1;
