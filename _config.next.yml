@@ -358,11 +358,11 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: dracula
-    dark: dracula
+    light: dark
+    dark: default
   prism:
-    light: prism-dracula
-    dark: prism-dracula
+    light: prism
+    dark: prism-dark
   # Add copy button on codeblock
   copy_button:
     enable: true
