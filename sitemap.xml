@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tb148.eu.org/404/index.html</loc>
+    <loc>https://tb148.eu.org/2023/02/12/jan-li-wile-sama-jan-ante/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -28,15 +28,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://tb148.eu.org/2023/02/12/hello-world/</loc>
-    
-    <lastmod>2023-02-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://tb148.eu.org/</loc>
@@ -46,6 +37,20 @@
   </url>
 
   
+  <url>
+    <loc>https://tb148.eu.org/tags/tokipona/</loc>
+    <lastmod>2023-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://tb148.eu.org/categories/tokipona/</loc>
+    <lastmod>2023-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
