@@ -38,7 +38,14 @@
 
   
   <url>
-    <loc>https://tb148.eu.org/tags/tokipona/</loc>
+    <loc>https://tb148.eu.org/tags/toki-pona/</loc>
+    <lastmod>2023-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tb148.eu.org/tags/psychology/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -47,7 +54,7 @@
 
   
   <url>
-    <loc>https://tb148.eu.org/categories/tokipona/</loc>
+    <loc>https://tb148.eu.org/categories/toki-pona/</loc>
     <lastmod>2023-02-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
