@@ -1266,7 +1266,7 @@ pre code {
   }
 }
 .book-mark-link::before {
-  color: #f00;
+  color: #ee3148;
   font-size: 32px;
   line-height: 1;
   content: '\f02e';
@@ -1598,7 +1598,7 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #ee3148;
   display: inline-block;
   margin: 0 5px;
   animation: icon-animate 1.33s ease-in-out infinite;
@@ -1660,7 +1660,7 @@ pre code {
 }
 .reading-progress-bar {
   --progress: 0;
-  background: #37c6c0;
+  background: #ee3148;
   height: 3px;
   position: fixed;
   z-index: 50;
