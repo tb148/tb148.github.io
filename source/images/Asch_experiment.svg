@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="600" height="492" viewBox="0 0 600 492">
+<style type="text/css">
+	.st0{opacity:0.4;}
+	.st1{fill:#fff;stroke:#000;}
+	.st2{fill:none;stroke:#000;stroke-width:10;}
+	.st3{font-family:Liberation Sans,Arial;}
+	.st4{font-size:24px;}
+	.st5{font-weight:bold}
+</style>
+<g id="diagram">
+	<rect x="77.8" y="57.1" class="st0" width="190" height="380"/>
+	<rect x="323.8" y="57.1" class="st0" width="190" height="380"/>
+	<rect x="71.2" y="50.6" class="st1" width="190" height="380"/>
+	<rect x="317.3" y="50.6" class="st1" width="190" height="380"/>
+	<line class="st2" x1="166.2" y1="140.6" x2="166.2" y2="383"/>
+	<line class="st2" x1="463.3" y1="140.6" x2="463.3" y2="383"/>
+	<line class="st2" x1="412.3" y1="90.9" x2="412.3" y2="383"/>
+	<line class="st2" x1="361.3" y1="183" x2="361.3" y2="383"/>
+</g>
+<g id="text">
+	<text transform="matrix(1 0 0 1 352.9042 411.4463)" class="st3 st4 st5">1</text>
+	<text transform="matrix(1 0 0 1 403.6148 411.4463)" class="st3 st4 st5">2</text>
+	<text transform="matrix(1 0 0 1 454.6434 411.4463)" class="st3 st4 st5">3</text>
+</g>
+</svg>
